@@ -1,0 +1,14 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 20px 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}

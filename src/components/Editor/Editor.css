@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.editor-container{
+    width: 50%;
+    margin: 0 20px;
+    height: 100%;
+    text-align: center;
+    background-color: #191a21;
+    color: white;
+    padding: 5px 0;
+}
+
+.editor-container span, .preview-container span{
+    padding: 5px 0;
+    color: white;
+    font-weight: 400;
+}
+
+.editor-container textarea{
+    width: 100%;
+    height: 100%;
+    background-color: #282a36;
+    color: white;
+    font-family: 'Raleway';
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.preview-container{
+    width: 45%;
+    height: 100%;
+    background-color: #191a21;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#preview{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.code{
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
